@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://sui.britishcouncil.org/0.2.2/css/bc-theme.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Product Finder Demo</title>
+  </head>
+  <body>
+    <header>
+      <div class="red-line"></div>
+      <div class="blue-line"></div>
+    </header>
+    <section>
+      <h1>IELTS test dates, fees and locations</h1>
+      <div class="wrapper">
+        <div class="left">
+          <div class="block small"></div>
+          <div class="block small"></div>
+          <div id="pf-root">
+            <!--  Inside this tag place correct config options. Available values are described below in the table --->
+            <script type="text/props">
+              {
+                "countryName": "Turkey",
+                "isoCode": "tr",
+                "addStructuredData": true,
+                "addSolasCSS": false,
+                "addPolyfills": false
+              }
+            </script>
+          </div>
+          <div class="block small"></div>
+          <div class="block small"></div>
+          <div class="block small"></div>
+        </div>
+        <div class="right">
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+        </div>
+      </div>
+      <!--  It is important to have <div> with id="pf-root" --->
+    </section>
+    <footer class="blue-line"></footer>
+    <!-- Main script including widget and all its logic. -->
+    <script
+      defer="defer"
+      src="https://bccdn.azureedge.net/product-finder/pf-bundle.js"
+    ></script>
+  </body>
+</html>
