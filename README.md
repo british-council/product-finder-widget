@@ -1,8 +1,10 @@
-# Product Finder Exams List Widget
+# Product Finder Table Widget
+
+Live Demo 👉 https://british-council.github.io/product-finder-widget 
 
 ## How to add widget to Solas pages?
 
-To make widget working properly you have to include following HTML markup somewhere in your page:
+To make widget working properly, you have to include following HTML markup somewhere in your page:
 ```html
 <body>
   <!--  Your page content... --->
@@ -29,7 +31,7 @@ To make widget working properly you have to include following HTML markup somewh
 ```
 
 ### Configuration object
-You can configure your widget using folowing option:
+You can configure your widget using following option:
 
 | Key               | Description                                            | Default value                     |
 | ----------------  | -----------                                            | -----------                       |
